@@ -18,7 +18,6 @@ return
 useEffect(() => {
   setCountQuestion(JSON.parse(window.localStorage.getItem('countQuestion')));
 },
-// eslint-disable-next-line
 []);
 
 useEffect(() => {
