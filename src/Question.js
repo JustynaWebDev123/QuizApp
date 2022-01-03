@@ -17,7 +17,7 @@ return
 
 useEffect(() => {
   setCountQuestion(JSON.parse(window.localStorage.getItem('countQuestion')));
-}, []);
+}, [setCountQuestion]);
 
 useEffect(() => {
   window.localStorage.setItem('countQuestion', countQuestion);
@@ -47,7 +47,7 @@ return (
 {questions.options.map((options) => {
 return (
 <button className={`btn-option ${
-isClick [countQuestion - 1] ? options === questions.answer ? "correct" : "incorrect" :"" }`}
+isClick[countQuestion - 1] ? options === questions.answer ? "correct" : "incorrect" :"" }`}
 key={options}
 onClick={handleOption}>{options}</button>);})}
 </div>
@@ -61,7 +61,7 @@ onClick={handleOption}>{options}</button>);})}
 
 <div>
 
-<Help  answer={questions.answer} />
+<Help answer={questions.answer} />
 <div/>
 
 </div>
