@@ -41,7 +41,7 @@ return (
 {questions.map((questions) => (
 <div>
 <div className="question-display" key={questions.id}>
-<h2 > {countQuestion}. {questions.question}</h2>
+<h2 >{countQuestion}. {questions.question}</h2>
 </div>
             
 <div className="options-display">
