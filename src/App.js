@@ -8,7 +8,7 @@ import "./index.css"
 function App() {
 
   const [questions,setQuestions]=useState([]);
-  const [countQuestion, setCountQuestion]=useState(1)
+  const [countQuestion, setCountQuestion]=useState(0)
   
 
   useEffect(()=>{

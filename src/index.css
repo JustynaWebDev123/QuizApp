@@ -49,22 +49,18 @@ justify-content: space-around;
 align-items: center;
 margin-top:50px;
 margin-bottom:50px;
-position: relative;
-z-index: 1000;
 }
 
 button{
   border:none;
   padding:1.5rem;
-  background-color: rgba(155, 20, 38, 0.692);
+  background-color: rgba(155, 20, 38, 0.644);
   color: rgb(245, 239, 239);
   border-radius: 5px;
   margin:1rem;
   cursor: pointer;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 2px;
-  position: relative;
-  z-index: 1;
 
 }
 
